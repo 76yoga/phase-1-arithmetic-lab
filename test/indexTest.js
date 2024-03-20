@@ -6,8 +6,8 @@ const expect = chai.expect;
 describe('index.js', function() {
   describe('multiply', function() {
     it("is an equation whose multiplied results will equal 62", function() {
-      expect(num1).to.be.a('number')
-      expect(num2).to.be.a('number')
+      expect(num1).to.be.a(31)
+      expect(num2).to.be.a(2)
       expect(multiply).to.eq(62)
     });
   });
